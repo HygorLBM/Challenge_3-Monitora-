@@ -1,0 +1,82 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 5s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #7C0A02;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.Tasks{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+
+.ToAdd-button{
+  width: 20%;
+  font-family: 'Times New Roman';
+}
+
+.AddButton{
+  width: 20%;
+  font-family: 'Times New Roman';
+}
+
+
+.Tasks-input{
+  width: 30%;
+  height: 30%;
+  font-family: 'Times New Roman';
+}
+
+  
+.Todo{
+     padding: 0px;
+     padding-left: 1vw;
+     margin: 0px;
+}
+  
+.CheckButton{
+   margin-left: 1vw;
+   margin-right: 1vw;
+}
+
+.List{
+  padding-left: 30%;
+  padding-top: 3%;
+}
+
+
+.List ul{
+  list-style: square;
+  text-align: start;
+
+}
+  
+.List li{
+    list-style-type: circle;
+    text-align: left;
+    padding-bottom: 1%;
+}
